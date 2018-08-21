@@ -1,0 +1,50 @@
+.table-section {
+    padding: 0 1.5rem;
+}
+
+table thead tr {
+    border-bottom: solid 2px #e6e8eb;
+}
+
+.files-table {
+    min-width: 100%;
+    border-left: solid 4px #FFFFFF;
+}
+
+.table-header {
+    /* Part of Cycle / Sub-: */
+    font-weight: bold;
+    color: #757575;
+    letter-spacing: 0;
+    text-align: left;
+    line-height: 24px;
+}
+
+.fadeTable-enter {
+    opacity: 0;
+}
+  
+.fadeTable-enter.fadeTable-enter-active {
+    opacity: 1;
+    transition: opacity 350ms ease-in;
+    /* transition-delay: 1s; */
+}
+
+/* .files-table thead tr th {
+    transition: all .5s ease-in;
+} */
+
+ /* 
+ 
+ NOT USING THESE
+
+.fadeTable-leave {
+    opacity: 1;
+}
+  
+.fadeTable-leave.fadeTable-leave-active {
+    opacity: 0;
+    transition: opacity 500ms ease-in;
+}
+
+*/

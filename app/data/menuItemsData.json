@@ -1,0 +1,95 @@
+[
+    {
+        "id": 0,
+        "title": "All Files",
+        "icon": "far fa-file",
+        "is_selected": true,
+        "submenu_open": true,
+        "subItems":[
+            {
+                "id": 0,
+                "title": "Contracts and Grants (CGX)",
+                "is_selected": true,
+                "parent_id": 0
+            },
+            {
+                "id": 1,
+                "title": "Course Enrollment",
+                "is_selected": false,
+                "parent_id": 0
+            },
+            {
+                "id": 2,
+                "title": "Degree",
+                "is_selected": false,
+                "parent_id": 0
+            },
+            {
+                "id": 3,
+                "title": "Graduate Admissions (GAD)",
+                "is_selected": false,
+                "parent_id": 0
+            },
+            {
+                "id": 4,
+                "title": "Health Science Residence (RES)",
+                "is_selected": false,
+                "parent_id": 0
+            },
+            {
+                "id": 5,
+                "title": "Student Enrollment",
+                "is_selected": false,
+                "parent_id": 0
+            },
+            {
+                "id": 6,
+                "title": "Student Financial Support (FAI)",
+                "is_selected": false,
+                "parent_id": 0
+            },
+            {
+                "id": 7,
+                "title": "Undergraduate Admissions (UAD)",
+                "is_selected": false,
+                "parent_id": 0
+            },
+            {
+                "id": 8,
+                "title": "University Student Aid Program (USAP)",
+                "is_selected": false,
+                "parent_id": 0
+            }
+        ]
+    },
+    {
+        "id": 1,
+        "title": "Data Stage Evaluations",
+        "icon": "far fa-edit",
+        "is_selected": false
+    },
+    {
+        "id": 2,
+        "title": "S & B Evaluations",
+        "icon": "far fa-edit",
+        "is_selected": false
+    },  
+    {
+        "id": 3,
+        "title": "BI Evaluations",
+        "icon": "far fa-edit",
+        "is_selected": false
+    },
+    {
+        "id": 4,
+        "title": "Returned Files",
+        "icon": "fas fa-sync-alt",
+        "is_selected": false
+    },
+    {
+        "id": 5,
+        "title": "Failures",
+        "icon": "fas fa-times-circle",
+        "is_selected": false
+    }
+]

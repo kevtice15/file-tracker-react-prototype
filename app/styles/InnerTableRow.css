@@ -1,0 +1,37 @@
+.inner-table td {
+    border-bottom: none;
+    padding: .5rem 2rem;
+}
+
+.inner-table td p{
+    display: inline-block;
+}
+
+.table-check {
+    color: #27AE60;
+}
+
+.table-cross {
+    color: #E86254;
+}
+
+.table-clock {
+    color: #757575;
+}
+
+.inner-table tbody tr:nth-child(odd) {
+    background-color: #FFFFFF;
+}
+  
+.inner-table tbody tr:nth-child(even) {
+    background-color: #F2F2F2;
+}
+
+#selected-inner-table-row {
+    background-color: #CBECFF !important;
+}
+
+tr td a i {
+    margin-left: 1rem;
+    color: #0C78B3;
+}

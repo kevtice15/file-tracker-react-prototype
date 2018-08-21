@@ -1,0 +1,98 @@
+.selected-row-a {
+    background-color: #E6ECF0;
+    border-left: solid 4px #2874A8;
+}
+
+thead tr:hover {
+    background-color: #FFFFFF;
+    border-left: solid 4px #FFFFFF;
+}
+
+/* .caret-column{
+    min-width: 3.5rem;
+} */
+
+thead tr {
+    border-left: solid 4px #FFFFFF;
+}
+
+tbody tr {
+    border-left: solid 4px #FFFFFF;
+}
+
+tr:hover {
+    background-color: #E6ECF0;
+    border-left: solid 4px #2874A8;
+}
+
+/* tbody tr {
+    border-left: solid 4px #FFFFFF;
+}
+
+tbody tr:hover {
+    border-left: solid 4px #E6ECF0;
+} */
+
+.selected-row-b {
+    background-color: #E6ECF0;
+    border-left: solid 4px #2874A8;
+}
+
+.selected-row-a td {
+    border-bottom: none;
+}
+
+.selected-row-b td {
+    padding: 1rem 2.5rem 2.5rem 2.5rem;
+}
+
+tr td {
+    border-bottom: 1px solid#e6e8eb;
+}
+
+.deemphasized {
+    color: #757575;
+}
+
+.emphasized {
+    font-weight: bold;
+    line-height: 1.5rem;
+}
+
+.rotate90 {
+    animation-duration: .25s;
+    animation-name: rotateDown;
+    animation-fill-mode: forwards;
+}
+
+
+.unrotate90 {
+    animation-duration: .25s;
+    animation-name: rotateRight;
+    animation-fill-mode: forwards;
+}
+
+.displayNone {
+    display: none;
+}
+
+
+@keyframes rotateDown {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(90deg);
+    }
+}
+
+@keyframes rotateRight {
+    from {
+        transform: rotate(90deg);
+    }
+    to {
+        transform: rotate(0deg);
+    }
+}
+
+

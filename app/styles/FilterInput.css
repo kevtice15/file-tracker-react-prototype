@@ -1,0 +1,13 @@
+.filters-list li {
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+.filters-list li select {
+    height: 2.5rem;
+    min-width: 11rem;
+}
+
+.filters-list li label {
+    margin-right: 1rem;
+}

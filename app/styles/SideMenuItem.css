@@ -1,0 +1,54 @@
+.smi{
+    padding: .5rem 0 .5rem 1rem;
+    list-style-type: none;
+    margin: 0 1rem;
+    margin-bottom: 1rem;
+}
+
+.smi i{
+    margin-right: .5rem;
+}
+
+.smi:hover{
+    background-color: #E1EAF0;
+    border-radius: 2px;
+    margin: 0 1rem 1rem 1rem;
+    /* padding: 1rem; */
+}
+
+.smi:hover .link-button{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #212121;
+    font-weight: 700;
+}
+
+.is-selected {
+    color: #212121;
+    /* background-color: #CBECFF; */
+    background-color: rgba(0,0,0,.1);
+    border-radius: 2px;
+    /* box-shadow: inset 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); */
+    /* margin: 0 1rem; */
+    /* padding-left: 0; */
+}
+
+.is-selected:hover {
+    color: #212121;
+    /* background-color: #CBECFF; */
+    background-color: rgba(0,0,0,.05);
+}
+
+.submenu-item {
+    background-color: rgba(0,0,0,.05);
+    border-radius: 2px;
+    margin: 0 1rem;
+    /* box-shadow: inset 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); */
+    margin-bottom: 1rem;
+}
+
+.submenu-item a .is-selected {
+    background-color: transparent;
+    box-shadow: none;
+    padding: 1rem 0;
+    
+}

@@ -1,0 +1,18 @@
+.menu-section nav ul {
+    padding: 0;
+}
+
+.menu-section {
+    margin-top: 1rem;
+}
+
+.uc-logo {
+    max-width: 128px;
+    box-sizing: border-box;
+    margin-bottom: 1.5rem;
+}
+
+.title-section {
+    background-color: #E1EAF0;
+    padding: 2rem;
+}

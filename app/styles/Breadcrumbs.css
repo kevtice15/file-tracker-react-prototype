@@ -1,0 +1,8 @@
+.breadcrumbs{
+    margin-bottom: 1.5rem;
+}
+
+.breadcrumbs li{
+    display: inline-block;
+    margin-right: 1rem;
+}
