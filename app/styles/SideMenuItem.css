@@ -1,12 +1,19 @@
 .smi{
-    padding: .5rem 0 .5rem 1rem;
+    padding: .5rem 1rem;
     list-style-type: none;
     margin: 0 1rem;
     margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
 }
 
 .smi i{
     margin-right: .5rem;
+}
+
+.smi span {
+    flex-grow: 2;
 }
 
 .smi:hover{

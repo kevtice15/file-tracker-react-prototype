@@ -2,6 +2,7 @@ import React from 'react';
 import '../styles/SideMenuItem.css';
 import { SideSubMenu } from './SideSubMenu.js';
 import * as MenuActions from '../actions/MenuActions.js';
+import { Pill } from "./Pill.js";
 
 export class SideMenuItem extends React.Component {
     constructor(props){
@@ -27,7 +28,11 @@ export class SideMenuItem extends React.Component {
                 <div className="submenu-item">
                     <a href="#" className="link-button" onClick={this.handleMenuSelection} >
                         <li className={"smi" + (this.props.isSelected ? " is-selected" : "")}>
-                            <i className={this.props.icon}></i>{this.props.title}
+                            <i className={this.props.icon}></i>
+                            <span>
+                                {this.props.title}
+                            </span>
+                            <Pill numOfItems="3" />
                         </li>
                     </a>
                     <SideSubMenu subItems={this.props.subItems} />
@@ -38,7 +43,11 @@ export class SideMenuItem extends React.Component {
             return (
                 <a href="#" className="link-button" onClick={this.handleMenuSelection}>
                     <li className={"smi" + (this.props.isSelected ? " is-selected" : "")}>
-                        <i className={this.props.icon}></i>{this.props.title}
+                        <i className={this.props.icon}></i>
+                        <span>
+                            {this.props.title}
+                        </span>
+                        <Pill numOfItems="3" />
                     </li>
                 </a>
             );

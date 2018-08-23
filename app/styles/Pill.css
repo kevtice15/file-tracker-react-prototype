@@ -1,0 +1,11 @@
+.pill-container {
+    background-color: #ec9675;
+    padding: .25rem .75rem;
+    font-size: 1rem;
+    font-weight: 700;
+    color: white;
+    position: relative;
+    max-width: 1.5rem;
+    text-align: center;
+    border-radius: .25rem;
+}
