@@ -6,7 +6,12 @@ import '../styles/FiltersBar.css';
 export class FiltersBar extends React.Component {
     render() {
         const filterItems = filters.map((item, index) =>
-            <FilterInput key={index} type={item.type} label={item.label} vals={item.vals} />
+            <FilterInput 
+                key={index} 
+                type={item.type} 
+                label={item.label} 
+                vals={item.vals} 
+            />
         );
         return (
             <div className="filters-bar">

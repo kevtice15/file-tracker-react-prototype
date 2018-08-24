@@ -13,7 +13,13 @@ export class SideSubMenu extends React.Component {
 
     render(){
         const subMenuItems = this.props.subItems.map((item, index) =>
-            <SideSubMenuItem key={index} title={item.title} menuId={item.id} parentId={item.parent_id} isSelected={item.is_selected}/>
+            <SideSubMenuItem 
+                key={index} 
+                title={item.title} 
+                menuId={item.id} 
+                parentId={item.parent_id} 
+                isSelected={item.is_selected}
+            />
         );
         console.log(this.props);
         console.log(subMenuItems);

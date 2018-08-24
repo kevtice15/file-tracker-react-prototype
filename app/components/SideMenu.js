@@ -41,7 +41,16 @@ export class SideMenu extends React.Component {
         const logo = new Image();
         logo.src = Logo;
         const menuItems = this.state.menus.map((item) =>
-            <SideMenuItem key={item.id} menuId={item.id} title={item.title} icon={item.icon} isSelected={item.is_selected} subItems={item.subItems} subMenuOpen={item.submenu_open} onClick={this.changeSelected} />
+            <SideMenuItem 
+                key={item.id} 
+                menuId={item.id} 
+                title={item.title} 
+                icon={item.icon} 
+                isSelected={item.is_selected} 
+                subItems={item.subItems} 
+                subMenuOpen={item.submenu_open} 
+                onClick={this.changeSelected} 
+            />
         );
 
         return (

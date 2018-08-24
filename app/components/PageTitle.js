@@ -32,7 +32,10 @@ export class PageTitle extends React.Component {
         return(
         <div className="page-title-section">
             <div className="title-bar">
-                <Breadcrumbs title={this.state.selectedPage.title} parentId={this.state.selectedPage.parent_id}/>
+                <Breadcrumbs 
+                    title={this.state.selectedPage.title} 
+                    parentId={this.state.selectedPage.parent_id}
+                />
                 <FiltersBar />
             </div>  
         </div>

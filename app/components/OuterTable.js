@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { OuterTableRow } from './OuterTableRow.js';
 import '../styles/OuterTable.css';
 import FileStore from "../stores/FileStore.js";
@@ -53,7 +54,22 @@ export class OuterTable extends React.Component{
     render() {
         if(this.state.filesToShow){
             const fileRows = this.state.filesToShow.map((item, index) =>
-                <OuterTableRow key={index} id={item.id} is_selected={item.is_selected} is_open={item.is_open} subject_area={item.subject_area} year={item.year} part_of_cycle={item.part_of_cycle} sub_cycle={item.sub_cycle} due_date={item.due_date} complete_group={item.complete_group} status={item.status} exceptions={item.exceptions} evaluate={item.evaluate} campus_list={item.campusList} />
+                <OuterTableRow 
+                    key={index} 
+                    id={item.id} 
+                    is_selected={item.is_selected} 
+                    is_open={item.is_open} 
+                    subject_area={item.subject_area} 
+                    year={item.year} 
+                    part_of_cycle={item.part_of_cycle} 
+                    sub_cycle={item.sub_cycle} 
+                    due_date={item.due_date} 
+                    complete_group={item.complete_group} 
+                    status={item.status} 
+                    exceptions={item.exceptions} 
+                    evaluate={item.evaluate} 
+                    campus_list={item.campusList} 
+                />
             );
             return (
                 <div className="table-section">
@@ -91,3 +107,20 @@ export class OuterTable extends React.Component{
         }
     }
 }
+
+OuterTable.propTypes = {
+    key: PropTypes.number.isRequired, 
+    id: PropTypes.number.isRequired, 
+    is_selected: PropTypes.bool.isRequired, 
+    is_open: PropTypes.bool.isRequired, 
+    subject_area: PropTypes.string.isRequired, 
+    year: PropTypes.number.isRequired, 
+    part_of_cycle: PropTypes.string.isRequired, 
+    sub_cycle: PropTypes.string.isRequired,
+    due_date: PropTypes.string.isRequired,
+    complete_group: PropTypes.bool.isRequired, 
+    status: PropTypes.string.isRequired,
+    exceptions: PropTypes.string.isRequired,
+    evaluate: PropTypes.string.isRequired, 
+    campus_list: PropTypes.array.isRequired
+};

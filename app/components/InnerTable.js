@@ -38,7 +38,18 @@ export class InnerTable extends React.Component {
 
     render(){
         const innerRows = this.props.campus_list.map((item, index) => 
-            <InnerTableRow key={index} id={item.id} parent_id={this.parent_id} campus={item.campus} received={item.received} data_stage={item.data_stage} s_and_b={item.s_and_b} bi={item.bi} times_sent={item.times_sent} reject={item.reject} />
+            <InnerTableRow 
+                key={index} 
+                id={item.id} 
+                parent_id={this.parent_id} 
+                campus={item.campus} 
+                received={item.received} 
+                data_stage={item.data_stage} 
+                s_and_b={item.s_and_b} 
+                bi={item.bi} 
+                times_sent={item.times_sent} 
+                reject={item.reject} 
+            />
         );
         return (
             <td colSpan="7">
