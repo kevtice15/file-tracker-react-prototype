@@ -1,0 +1,64 @@
+[
+    {
+        "type": "year-select",
+        "label": "Year/Cycle:",
+        "vals": [
+            {
+                "val": "2018 Cycle",
+                "text": "2018 Cycle"
+            },
+            {
+                "val": "2017 Cycle",
+                "text": "2017 Cycle"
+            },
+            {
+                "val": "2016 Cycle",
+                "text": "2016 Cycle"
+            },
+            {
+                "val": "2015 Cycle",
+                "text": "2015 Cycle"
+            },
+            {
+                "val": "2014 Cycle",
+                "text": "2014 Cycle"
+            }
+        ]
+    },
+    {
+        "type": "part-of-cycle-select",
+        "label": "Part of Cycle:",
+        "vals": [
+            {
+                "val": "Summer",
+                "text": "Summer"
+            },
+            {
+                "val": "Fall",
+                "text": "Fall"
+            },
+            {
+                "val": "Winter",
+                "text": "Winter"
+            },
+            {
+                "val": "Spring",
+                "text": "Spring"
+            }
+        ]
+    },
+    {
+        "type": "sub-cycle-select",
+        "label": "Sub-Cycle:",
+        "vals": [
+            {
+                "val": "Third Week",
+                "text": "Third Week - 3WK"
+            },
+            {
+                "val": "End of Term",
+                "text": "End of Term - EOT"
+            }
+        ]   
+    }
+]

@@ -24,41 +24,5 @@
                 "text": "2014 Cycle"
             }
         ]
-    },
-    {
-        "type": "part-of-cycle-select",
-        "label": "Part of Cycle:",
-        "vals": [
-            {
-                "val": "Summer",
-                "text": "Summer"
-            },
-            {
-                "val": "Fall",
-                "text": "Fall"
-            },
-            {
-                "val": "Winter",
-                "text": "Winter"
-            },
-            {
-                "val": "Spring",
-                "text": "Spring"
-            }
-        ]
-    },
-    {
-        "type": "sub-cycle-select",
-        "label": "Sub-Cycle:",
-        "vals": [
-            {
-                "val": "Third Week",
-                "text": "Third Week - 3WK"
-            },
-            {
-                "val": "End of Term",
-                "text": "End of Term - EOT"
-            }
-        ]   
     }
 ]

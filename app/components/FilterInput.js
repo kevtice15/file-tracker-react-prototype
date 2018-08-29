@@ -7,6 +7,7 @@ export class FilterInput extends React.Component {
         
     }
     render () {
+        //
         const filterOptions = this.props.vals.map((item, index) =>
             <option key={index} value={item.val}>{item.text}</option>
         );

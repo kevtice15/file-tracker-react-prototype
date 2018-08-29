@@ -32,7 +32,7 @@ export class SideMenuItem extends React.Component {
                             <span>
                                 {this.props.title}
                             </span>
-                            <Pill numOfItems="3" />
+                            {/* <Pill numOfItems="3" /> */}
                         </li>
                     </a>
                     <SideSubMenu subItems={this.props.subItems} />
